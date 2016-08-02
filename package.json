@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-behance",
+  "version": "0.0.0",
+  "description": "n/a",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Annie Zhang",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint lib/** tests/lib/**",
+    "test": "npm run lint && mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-preset-behance": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
