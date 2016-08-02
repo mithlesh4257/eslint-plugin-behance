@@ -43,9 +43,9 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-* Fill in provided rules here
-
-- `no-deprecated`: Allows you to blacklist any deprecated `import` statements or member expressions
-
+* `no-deprecated`: Allows you to blacklist any deprecated `import` statements or member expressions
+  * Options: this rule takes in two object arguments, whose property names are the deprecated items and property values are the suggested replacement items
+    * `imports`: deprecated libraries and their replacements
+    * `expressions`: deprecated member expressions and their replacements
 
 
