@@ -1,6 +1,6 @@
 'use strict';
 
-var rule = require('../../../lib/rules/no-test-arrow');
+var rule = require('../../../lib/rules/no-jasmine-arrow');
 var RuleTester = require('eslint').RuleTester;
 var ruleTester = new RuleTester();
 var parserOptions = {
@@ -8,7 +8,7 @@ var parserOptions = {
   sourceType: 'module'
 };
 
-ruleTester.run('no-test-arrow', rule, {
+ruleTester.run('no-jasmine-arrow', rule, {
   valid: [
     'describe(\'foo\', function() {})',
     'it(\'foo\', function() {})',
