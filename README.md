@@ -48,7 +48,7 @@ Then configure the rules you want to use under the rules section.
     * `imports`: deprecated libraries and their replacements
     * `expressions`: deprecated member expressions and their replacements
 
-* `no-test-arrow`: Disallows arrow functions as arguments to Jasmine test functions (`describe`, `it`, `beforeEach`, `beforeAll`, `afterEach`, `afterAll`).
+* `no-jasmine-arrow`: Disallows arrow functions as arguments to Jasmine test functions (`describe`, `it`, `beforeEach`, `beforeAll`, `afterEach`, `afterAll`).
 
 * `no-generators`: Disallows using generators (function *)
 
