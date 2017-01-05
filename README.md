@@ -50,4 +50,5 @@ Then configure the rules you want to use under the rules section.
 
 * `no-test-arrow`: Disallows arrow functions as arguments to Jasmine test functions (`describe`, `it`, `beforeEach`, `beforeAll`, `afterEach`, `afterAll`).
 
+* `no-generators`: Disallows using generators (function *)
 
