@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-behance",
   "version": "1.1.1",
-  "description": "n/a",
+  "description": "Behance's custom ESLint rules",
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -13,7 +13,7 @@
     "lib"
   ],
   "scripts": {
-    "lint": "./node_modules/.bin/eslint lib/** tests/lib/**",
+    "lint": "eslint 'lib/**' 'tests/lib/**'",
     "test": "npm run lint && mocha tests --recursive"
   },
   "dependencies": {
