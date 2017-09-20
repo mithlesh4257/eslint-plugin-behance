@@ -9,6 +9,9 @@
   ],
   "author": "Annie Zhang",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "lint": "./node_modules/.bin/eslint lib/** tests/lib/**",
     "test": "npm run lint && mocha tests --recursive"
