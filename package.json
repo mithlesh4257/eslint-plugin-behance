@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-behance",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Behance's custom ESLint rules",
   "keywords": [
     "eslint",
